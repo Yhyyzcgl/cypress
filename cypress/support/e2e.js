@@ -23,3 +23,5 @@ import 'cypress-iframe'
 require('@cypress/xpath')
 
 require('@4tw/cypress-drag-drop')
+
+import 'cypress-file-upload';
