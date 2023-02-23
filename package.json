@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run_day02": "npx cypress run --spec 'cypress/e2e/day02/' --browser chrome",
+    "mycode": "npx cypress run --spec 'cypress/e2e/day02/' --browser chrome --headed"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
     "@cypress/xpath": "^2.0.3",
+    "@faker-js/faker": "^7.6.0",
     "cypress": "^12.5.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1"
