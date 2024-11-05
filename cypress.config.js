@@ -16,7 +16,7 @@ module.exports = defineConfig({
 
     //"retries": 2
     //Test FAIL olduğunda onu kaç kere daha çalıştırması gerektiğini belirtiyoruz.
-    // "retries": 2 => 1 kere çalıştırıp hata aldığında; 2 defa daha dene
+    // "retries": 2 => 1 kere çalıştırıp hata aldığında; 2 defa daha dene.
  
     
   },
