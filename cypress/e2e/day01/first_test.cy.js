@@ -12,7 +12,7 @@ describe('My First Test', ()=>{
         cy.visit('https://www.google.com/')
 
         cy.url().should('include','google')
-        
+        ///test
     })
 
     it ('Title Test', ()=>{
